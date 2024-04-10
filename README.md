@@ -1,12 +1,12 @@
 # ids_peak_cam
 
-A Linux [ROS C++ Node](https://wiki.ros.org/peak_cam) that wraps the driver API for IDS vision cameras using IDS peak software. Tested on Ubuntu 22.04 LTS.
+A Linux [ROS2 C++ Node](https://wiki.ros.org/peak_cam) that wraps the driver API for IDS vision cameras using IDS peak software. Tested on Ubuntu 22.04 LTS.
 
 ## How to run
 
 ### Before running the code
 
-1. install [ROS](https://docs.ros.org/en/humble/Installation.html)
+1. install [ROS2 Humble](https://docs.ros.org/en/humble/Installation.html)
 2. install [IDS peak](https://de.ids-imaging.com/download-vision-lin64.html)
 
 ### Running the code
@@ -35,8 +35,6 @@ For multiple cameras, create a `.launch` and a `.yaml` file for each camera.
 
 > Hint: Sometimes the cameras are only accesible as root. Try ` sudo -s` in your terminal and launch the node again.
 
-
-Copyright (c) 2020, Sherif Nekkah
 
 All rights reserved.
 
