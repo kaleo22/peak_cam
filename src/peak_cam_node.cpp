@@ -49,32 +49,22 @@ namespace peak_cam
 PeakCamNode::PeakCamNode(const rclcpp::NodeOptions & options)
 : rclcpp::Node("peak_cam_node", options)
 {
+  // declaring all parameters, which are needed
   this->declare_parameter("frame_id", "camera_front");
   this->declare_parameter("image_topic", "image_raw");
-  
-
-  this->declare_parameter("selectedDevice", "0"); //4103432590
-  
+  this->declare_parameter("selectedDevice", "0");
   this->declare_parameter("ImageHeight", 1200);
-  this->declare_parameter("ImageWidth", 1896);
+  this->declare_parameter("ImageWidth", 1920);
   this->declare_parameter("OffsetWidth", 0);
   this->declare_parameter("OffsetHeight", 0);
-  
   this->declare_parameter("PixelFormat", "RGB8");
   this->declare_parameter("UseOffset", true);
-  
-
   this->declare_parameter("ExposureTime", 5000);
   this->declare_parameter("AcquisitionFrameRate", 10);
   this->declare_parameter("Gamma", 1.0);
   this->declare_parameter("camera_info_url", "...");
-  
   this->declare_parameter("ExposureAuto", "Continuous");
-  
-  
   this->declare_parameter("GainAuto", "Continuous");
-  
-  
   this->declare_parameter("GainSelector", "DigitalAll");
 
   getParams();
