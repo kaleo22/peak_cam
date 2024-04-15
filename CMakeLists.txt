@@ -23,7 +23,6 @@ find_package(ament_cmake REQUIRED COMPONENTS
   image_transport
   rclcpp
   sensor_msgs
-  camera_info_manager
 )
 
 # samples for ids peak library are usually installed to /usr/local/src/ids/samples/peak
