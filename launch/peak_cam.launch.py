@@ -41,7 +41,7 @@ def generate_launch_description():
     print(params_2)
 
     container_2 = ComposableNodeContainer(
-        name='peak_cam_container',
+        name='peak_cam_container2',
         namespace='',
         package='rclcpp_components',
         executable='component_container',
@@ -62,7 +62,7 @@ def generate_launch_description():
     print(params_3)
 
     container_3 = ComposableNodeContainer(
-        name='peak_cam_container',
+        name='peak_cam_container3',
         namespace='',
         package='rclcpp_components',
         executable='component_container',
@@ -83,7 +83,7 @@ def generate_launch_description():
     print(params_4)
 
     container_4 = ComposableNodeContainer(
-        name='peak_cam_container',
+        name='peak_cam_container4',
         namespace='',
         package='rclcpp_components',
         executable='component_container',
