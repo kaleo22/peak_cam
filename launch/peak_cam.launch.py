@@ -15,9 +15,9 @@ def generate_launch_description():
     #parameters_file_path_3 = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam3.yaml')
     #parameters_file_path_4 = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam4.yaml')
 
-    with open(parameters_file_path, 'r') as f:
-        params = yaml.safe_load(f)['/**']['ros__parameters']
-    print(params)
+    # with open(parameters_file_path, 'r') as f:
+    #     params = yaml.safe_load(f)['/**']['ros__parameters']
+    # print(params)
 
     # container = ComposableNodeContainer(
     #     name='peak_cam_container',
