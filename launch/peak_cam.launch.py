@@ -100,4 +100,4 @@ def generate_launch_description():
     # )
 
 
-    return launch.LaunchDescription([container, container_2, container_3, container_4])
+    return launch.LaunchDescription([container_2])
