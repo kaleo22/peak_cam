@@ -52,6 +52,10 @@ rclcpp_components_register_node(${PROJECT_NAME}
   EXECUTABLE peak_cam_node
 )
 
+rclcpp_components_register_node(${PROJECT_NAME}
+  EXECUTABLE tf_node
+)
+
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/launch
   DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}
 )
