@@ -10,7 +10,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     parameters_file_path = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam1.yaml')
-    camera_info_path = Path(get_package_share_directory('peak_cam'), 'params', 'intrinsics', 'default_camera_info.yaml')
+    camera_info_path = Path(get_package_share_directory('peak_cam'), 'params', 'intrinsics', 'cam_1_camera_info.yaml')
     camera_info_path_4 = Path(get_package_share_directory('peak_cam'), 'params', 'intrinsics', 'cam_4_camera_info.yaml')
     parameters_file_path_2 = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam2.yaml')
     parameters_file_path_3 = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam3.yaml')
