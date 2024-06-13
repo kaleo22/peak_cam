@@ -4,8 +4,8 @@ camera_name: peak_cam
 camera_matrix:
   rows: 3
   cols: 3
-  data: [1333.33, 0, 960 , 1333.33,  600, 0, 0, 1]
-distortion_model: 'plumb_bob'
+  data: [1333.33, 0, 960 , 0, 1333.33,  600, 0, 0, 1]
+distortion_model: plumb_bob
 distortion_coefficients:
   rows: 1
   cols: 5
