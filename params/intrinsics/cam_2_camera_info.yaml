@@ -1,6 +1,6 @@
 image_width: 1920
 image_height: 1200
-camera_name: peak_cam_3
+camera_name: peak_cam_2
 camera_matrix:
   rows: 3
   cols: 3

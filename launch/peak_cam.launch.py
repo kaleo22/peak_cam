@@ -11,7 +11,8 @@ from launch_ros.actions import Node
 def generate_launch_description():
     parameters_file_path = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam1.yaml')
     camera_info_path = Path(get_package_share_directory('peak_cam'), 'params', 'intrinsics', 'cam_1_camera_info.yaml')
-    camera_info_path_4 = Path(get_package_share_directory('peak_cam'), 'params', 'intrinsics', 'cam_4_camera_info.yaml')
+    camera_info_path_2 = Path(get_package_share_directory('peak_cam'), 'params', 'intrinsics', 'cam_2_camera_info.yaml')
+    camera_info_path_3 = Path(get_package_share_directory('peak_cam'), 'params', 'intrinsics', 'cam_4_camera_info.yaml')
     parameters_file_path_2 = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam2.yaml')
     parameters_file_path_3 = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam3.yaml')
     parameters_file_path_4 = Path(get_package_share_directory('peak_cam'), 'params', 'settings', 'cam4.yaml')
@@ -53,7 +54,7 @@ def generate_launch_description():
                 name='peak_cam_2',
                 parameters=[
                     params_2,
-                    {'camera_info_url': 'file://' + str(camera_info_path)}])
+                    {'camera_info_url': 'file://' + str(camera_info_path_2)}])
         ],
         output='screen'
     )
@@ -74,7 +75,7 @@ def generate_launch_description():
                 name='peak_cam_3',
                 parameters=[
                     params_3,
-                    {'camera_info_url': 'file://' + str(camera_info_path_4)}])
+                    {'camera_info_url': 'file://' + str(camera_info_path_3)}])
         ],
         output='screen'
     )
