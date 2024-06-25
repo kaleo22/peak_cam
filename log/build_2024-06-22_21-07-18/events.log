@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000759] (peak_cam) JobQueued: {'identifier': 'peak_cam', 'dependencies': OrderedDict()}
+[0.000795] (peak_cam) JobStarted: {'identifier': 'peak_cam'}
+[0.007405] (peak_cam) JobProgress: {'identifier': 'peak_cam', 'progress': 'cmake'}
+[0.008011] (peak_cam) Command: {'cmd': ['/usr/bin/cmake', '/home/leonard/peak_cam_docker_container/peak_cam', '-DCMAKE_INSTALL_PREFIX=/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam'], 'cwd': '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leonard'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/leonard'), ('OLDPWD', '/home/leonard/peak_cam_docker_container'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1647'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'leonard'), ('JOURNAL_STREAM', '8:49578'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leonard'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/leonard-ThinkPad-L14-Gen-4:@/tmp/.ICE-unix/1827,unix/leonard-ThinkPad-L14-Gen-4:/tmp/.ICE-unix/1827'), ('INVOCATION_ID', '8169111098004d479970d5d8298e17cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a40c201_8af7_455f_a60a_1cb2744c6e3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.026241] (peak_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[0.045679] (peak_cam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099834] (-) TimerEvent: {}
+[0.200263] (-) TimerEvent: {}
+[0.245991] (peak_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.248078] (peak_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300393] (-) TimerEvent: {}
+[0.322611] (peak_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.354802] (peak_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.355456] (peak_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400558] (-) TimerEvent: {}
+[0.501028] (-) TimerEvent: {}
+[0.601488] (-) TimerEvent: {}
+[0.702154] (-) TimerEvent: {}
+[0.702896] (peak_cam) StderrLine: {'line': b'CMake Warning at /usr/lib/ids_peak-1.8.0/cmake/ids_peak-config.cmake:234 (message):\n'}
+[0.703269] (peak_cam) StderrLine: {'line': b'  GENICAM_GENTL64_PATH is not set! If you just installed the SDK you might\n'}
+[0.703438] (peak_cam) StderrLine: {'line': b'  want to consider a restart.  If you are using the .tar.gz package, please\n'}
+[0.703566] (peak_cam) StderrLine: {'line': b'  use the ids_peak_generate_starter_script function to generate a starter\n'}
+[0.703689] (peak_cam) StderrLine: {'line': b'  script.\n'}
+[0.703809] (peak_cam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.703931] (peak_cam) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[0.704050] (peak_cam) StderrLine: {'line': b'\n'}
+[0.704171] (peak_cam) StderrLine: {'line': b'\n'}
+[0.793221] (peak_cam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system \n'}
+[0.802276] (-) TimerEvent: {}
+[0.823895] (peak_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.864674] (peak_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[0.865858] (peak_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam\n'}
+[0.874447] (peak_cam) CommandEnded: {'returncode': 0}
+[0.875364] (peak_cam) JobProgress: {'identifier': 'peak_cam', 'progress': 'build'}
+[0.879720] (peak_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam', '--', '-j12', '-l12'], 'cwd': '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leonard'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/leonard'), ('OLDPWD', '/home/leonard/peak_cam_docker_container'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1647'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'leonard'), ('JOURNAL_STREAM', '8:49578'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leonard'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/leonard-ThinkPad-L14-Gen-4:@/tmp/.ICE-unix/1827,unix/leonard-ThinkPad-L14-Gen-4:/tmp/.ICE-unix/1827'), ('INVOCATION_ID', '8169111098004d479970d5d8298e17cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a40c201_8af7_455f_a60a_1cb2744c6e3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.902492] (-) TimerEvent: {}
+[0.930096] (peak_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target peak_cam\x1b[0m\n'}
+[0.930450] (peak_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target peak_cam_node\x1b[0m\n'}
+[1.002629] (-) TimerEvent: {}
+[1.011348] (peak_cam) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/peak_cam_node.dir/rclcpp_components/node_main_peak_cam_node.cpp.o\x1b[0m\n'}
+[1.019694] (peak_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/peak_cam.dir/src/peak_cam_node.cpp.o\x1b[0m\n'}
+[1.045817] (peak_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leonard/peak_cam_docker_container/peak_cam/src/peak_cam_node.cpp:36\x1b[m\x1b[K:\n'}
+[1.046106] (peak_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leonard/peak_cam_docker_container/peak_cam/include/peak_cam/peak_cam_node.hpp:43:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory\n'}
+[1.046186] (peak_cam) StderrLine: {'line': b'   43 | #include \x1b[01;31m\x1b[K"camera_info_manager/camera_info_manager.hpp"\x1b[m\x1b[K\n'}
+[1.046257] (peak_cam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.046315] (peak_cam) StderrLine: {'line': b'compilation terminated.\n'}
+[1.046980] (peak_cam) StderrLine: {'line': b'make[2]: *** [CMakeFiles/peak_cam.dir/build.make:63: CMakeFiles/peak_cam.dir/src/peak_cam_node.cpp.o] Error 1\n'}
+[1.047351] (peak_cam) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/peak_cam.dir/all] Error 2\n'}
+[1.047449] (peak_cam) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.102794] (-) TimerEvent: {}
+[1.203274] (-) TimerEvent: {}
+[1.303760] (-) TimerEvent: {}
+[1.404248] (-) TimerEvent: {}
+[1.504705] (-) TimerEvent: {}
+[1.605179] (-) TimerEvent: {}
+[1.705646] (-) TimerEvent: {}
+[1.806138] (-) TimerEvent: {}
+[1.906624] (-) TimerEvent: {}
+[2.007115] (-) TimerEvent: {}
+[2.107598] (-) TimerEvent: {}
+[2.208067] (-) TimerEvent: {}
+[2.308558] (-) TimerEvent: {}
+[2.408994] (-) TimerEvent: {}
+[2.509594] (-) TimerEvent: {}
+[2.610417] (-) TimerEvent: {}
+[2.686632] (peak_cam) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable peak_cam_node\x1b[0m\n'}
+[2.710544] (-) TimerEvent: {}
+[2.784065] (peak_cam) StdoutLine: {'line': b'[ 75%] Built target peak_cam_node\n'}
+[2.784766] (peak_cam) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.786294] (peak_cam) CommandEnded: {'returncode': 2}
+[2.810793] (-) TimerEvent: {}
+[2.812543] (peak_cam) JobEnded: {'identifier': 'peak_cam', 'rc': 2}
+[2.823397] (-) EventReactorShutdown: {}

@@ -1,0 +1,56 @@
+[0.010s] Invoking command in '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam -- -j12 -l12
+[0.092s] [ 75%] Built target peak_cam_node
+[0.092s] [ 75%] [32mBuilding CXX object CMakeFiles/peak_cam.dir/src/peak_cam_node.cpp.o[0m
+[16.257s] [100%] [32m[1mLinking CXX shared library libpeak_cam.so[0m
+[16.714s] [100%] Built target peak_cam
+[16.728s] Invoked command in '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam -- -j12 -l12
+[16.783s] Invoking command in '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam
+[16.788s] -- Install configuration: ""
+[16.788s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/peak_cam/peak_cam_node
+[16.788s] -- Set runtime path of "/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/peak_cam/peak_cam_node" to ""
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/left.launch.py
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/front.launch.py
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/peak_cam.launch.py
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/right.launch.py
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/rear.launch.py
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam2.yaml
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam3.yaml
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/peak_cam_params.yaml
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam4.yaml
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam1.yaml
+[16.789s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_4_camera_info.yaml
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_2_camera_info.yaml
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_1_camera_info.yaml
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/default_camera_info.yaml
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam/peak_cam_node.hpp
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam/acquisition_parameters.hpp
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/library_path.sh
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/library_path.dsv
+[16.790s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/libpeak_cam.so
+[16.799s] -- Set runtime path of "/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/libpeak_cam.so" to ""
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/package_run_dependencies/peak_cam
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/parent_prefix_path/peak_cam
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/ament_prefix_path.sh
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/ament_prefix_path.dsv
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/path.sh
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/path.dsv
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.bash
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.sh
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.zsh
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.dsv
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/package.dsv
+[16.800s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/packages/peak_cam
+[16.801s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/rclcpp_components/peak_cam
+[16.801s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.801s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.801s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[16.801s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/peak_camConfig.cmake
+[16.801s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/peak_camConfig-version.cmake
+[16.801s] -- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/package.xml
+[16.803s] Invoked command in '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam

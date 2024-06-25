@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findids_peak.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "ids_peak",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "ids_peak" with any
+  of the following names:
+
+    ids_peakConfig.cmake
+    ids_peak-config.cmake
+
+  Add the installation prefix of "ids_peak" to CMAKE_PREFIX_PATH or set
+  "ids_peak_DIR" to a directory containing one of the above files.  If
+  "ids_peak" provides a separate development package or SDK, be sure it has
+  been installed.
+
+

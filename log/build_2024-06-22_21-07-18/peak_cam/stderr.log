@@ -1,0 +1,18 @@
+CMake Warning at /usr/lib/ids_peak-1.8.0/cmake/ids_peak-config.cmake:234 (message):
+  GENICAM_GENTL64_PATH is not set! If you just installed the SDK you might
+  want to consider a restart.  If you are using the .tar.gz package, please
+  use the ids_peak_generate_starter_script function to generate a starter
+  script.
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (find_package)
+
+
+In file included from [01m[K/home/leonard/peak_cam_docker_container/peak_cam/src/peak_cam_node.cpp:36[m[K:
+[01m[K/home/leonard/peak_cam_docker_container/peak_cam/include/peak_cam/peak_cam_node.hpp:43:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+   43 | #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/peak_cam.dir/build.make:63: CMakeFiles/peak_cam.dir/src/peak_cam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/peak_cam.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/leonard/peak_cam_docker_container/peak_cam -DCMAKE_INSTALL_PREFIX=/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam
+Invoked command in '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/leonard/peak_cam_docker_container/peak_cam -DCMAKE_INSTALL_PREFIX=/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam

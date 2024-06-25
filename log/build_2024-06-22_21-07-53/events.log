@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000645] (peak_cam) JobQueued: {'identifier': 'peak_cam', 'dependencies': OrderedDict()}
+[0.000682] (peak_cam) JobStarted: {'identifier': 'peak_cam'}
+[0.007221] (peak_cam) JobProgress: {'identifier': 'peak_cam', 'progress': 'cmake'}
+[0.007779] (peak_cam) JobProgress: {'identifier': 'peak_cam', 'progress': 'build'}
+[0.008297] (peak_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam', '--', '-j12', '-l12'], 'cwd': '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leonard'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/leonard'), ('OLDPWD', '/home/leonard/peak_cam_docker_container'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1647'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'leonard'), ('JOURNAL_STREAM', '8:49578'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leonard'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/leonard-ThinkPad-L14-Gen-4:@/tmp/.ICE-unix/1827,unix/leonard-ThinkPad-L14-Gen-4:/tmp/.ICE-unix/1827'), ('INVOCATION_ID', '8169111098004d479970d5d8298e17cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a40c201_8af7_455f_a60a_1cb2744c6e3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.091970] (peak_cam) StdoutLine: {'line': b'[ 75%] Built target peak_cam_node\n'}
+[0.092445] (peak_cam) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/peak_cam.dir/src/peak_cam_node.cpp.o\x1b[0m\n'}
+[0.099863] (-) TimerEvent: {}
+[0.200346] (-) TimerEvent: {}
+[0.300806] (-) TimerEvent: {}
+[0.401306] (-) TimerEvent: {}
+[0.501862] (-) TimerEvent: {}
+[0.602354] (-) TimerEvent: {}
+[0.702846] (-) TimerEvent: {}
+[0.803354] (-) TimerEvent: {}
+[0.903843] (-) TimerEvent: {}
+[1.004327] (-) TimerEvent: {}
+[1.104840] (-) TimerEvent: {}
+[1.205352] (-) TimerEvent: {}
+[1.305845] (-) TimerEvent: {}
+[1.406349] (-) TimerEvent: {}
+[1.506810] (-) TimerEvent: {}
+[1.607278] (-) TimerEvent: {}
+[1.707699] (-) TimerEvent: {}
+[1.808090] (-) TimerEvent: {}
+[1.908482] (-) TimerEvent: {}
+[2.008935] (-) TimerEvent: {}
+[2.109403] (-) TimerEvent: {}
+[2.209977] (-) TimerEvent: {}
+[2.310797] (-) TimerEvent: {}
+[2.411209] (-) TimerEvent: {}
+[2.511546] (-) TimerEvent: {}
+[2.611890] (-) TimerEvent: {}
+[2.712239] (-) TimerEvent: {}
+[2.812607] (-) TimerEvent: {}
+[2.912915] (-) TimerEvent: {}
+[3.013266] (-) TimerEvent: {}
+[3.113592] (-) TimerEvent: {}
+[3.213914] (-) TimerEvent: {}
+[3.314242] (-) TimerEvent: {}
+[3.414585] (-) TimerEvent: {}
+[3.514938] (-) TimerEvent: {}
+[3.615269] (-) TimerEvent: {}
+[3.715615] (-) TimerEvent: {}
+[3.815949] (-) TimerEvent: {}
+[3.916290] (-) TimerEvent: {}
+[4.016635] (-) TimerEvent: {}
+[4.116966] (-) TimerEvent: {}
+[4.217312] (-) TimerEvent: {}
+[4.317653] (-) TimerEvent: {}
+[4.417997] (-) TimerEvent: {}
+[4.518329] (-) TimerEvent: {}
+[4.618663] (-) TimerEvent: {}
+[4.719002] (-) TimerEvent: {}
+[4.819346] (-) TimerEvent: {}
+[4.919696] (-) TimerEvent: {}
+[5.020042] (-) TimerEvent: {}
+[5.120392] (-) TimerEvent: {}
+[5.220710] (-) TimerEvent: {}
+[5.321059] (-) TimerEvent: {}
+[5.421409] (-) TimerEvent: {}
+[5.521740] (-) TimerEvent: {}
+[5.622074] (-) TimerEvent: {}
+[5.722401] (-) TimerEvent: {}
+[5.822731] (-) TimerEvent: {}
+[5.923056] (-) TimerEvent: {}
+[6.023396] (-) TimerEvent: {}
+[6.123733] (-) TimerEvent: {}
+[6.224077] (-) TimerEvent: {}
+[6.324667] (-) TimerEvent: {}
+[6.425051] (-) TimerEvent: {}
+[6.525400] (-) TimerEvent: {}
+[6.625750] (-) TimerEvent: {}
+[6.726093] (-) TimerEvent: {}
+[6.826438] (-) TimerEvent: {}
+[6.926764] (-) TimerEvent: {}
+[7.027087] (-) TimerEvent: {}
+[7.127425] (-) TimerEvent: {}
+[7.227774] (-) TimerEvent: {}
+[7.328131] (-) TimerEvent: {}
+[7.428483] (-) TimerEvent: {}
+[7.528850] (-) TimerEvent: {}
+[7.629257] (-) TimerEvent: {}
+[7.729607] (-) TimerEvent: {}
+[7.829961] (-) TimerEvent: {}
+[7.930323] (-) TimerEvent: {}
+[8.030668] (-) TimerEvent: {}
+[8.131015] (-) TimerEvent: {}
+[8.231355] (-) TimerEvent: {}
+[8.331704] (-) TimerEvent: {}
+[8.432025] (-) TimerEvent: {}
+[8.532358] (-) TimerEvent: {}
+[8.632685] (-) TimerEvent: {}
+[8.733229] (-) TimerEvent: {}
+[8.833561] (-) TimerEvent: {}
+[8.933881] (-) TimerEvent: {}
+[9.034208] (-) TimerEvent: {}
+[9.134530] (-) TimerEvent: {}
+[9.234853] (-) TimerEvent: {}
+[9.335190] (-) TimerEvent: {}
+[9.435533] (-) TimerEvent: {}
+[9.535859] (-) TimerEvent: {}
+[9.636181] (-) TimerEvent: {}
+[9.736496] (-) TimerEvent: {}
+[9.836825] (-) TimerEvent: {}
+[9.937151] (-) TimerEvent: {}
+[10.037477] (-) TimerEvent: {}
+[10.137828] (-) TimerEvent: {}
+[10.238170] (-) TimerEvent: {}
+[10.338496] (-) TimerEvent: {}
+[10.438818] (-) TimerEvent: {}
+[10.539130] (-) TimerEvent: {}
+[10.639457] (-) TimerEvent: {}
+[10.739780] (-) TimerEvent: {}
+[10.840112] (-) TimerEvent: {}
+[10.940437] (-) TimerEvent: {}
+[11.040768] (-) TimerEvent: {}
+[11.141098] (-) TimerEvent: {}
+[11.241411] (-) TimerEvent: {}
+[11.341759] (-) TimerEvent: {}
+[11.442087] (-) TimerEvent: {}
+[11.542416] (-) TimerEvent: {}
+[11.642749] (-) TimerEvent: {}
+[11.743069] (-) TimerEvent: {}
+[11.843393] (-) TimerEvent: {}
+[11.943723] (-) TimerEvent: {}
+[12.044045] (-) TimerEvent: {}
+[12.144373] (-) TimerEvent: {}
+[12.244704] (-) TimerEvent: {}
+[12.345068] (-) TimerEvent: {}
+[12.445398] (-) TimerEvent: {}
+[12.545731] (-) TimerEvent: {}
+[12.646061] (-) TimerEvent: {}
+[12.746395] (-) TimerEvent: {}
+[12.846728] (-) TimerEvent: {}
+[12.947064] (-) TimerEvent: {}
+[13.047399] (-) TimerEvent: {}
+[13.147727] (-) TimerEvent: {}
+[13.248056] (-) TimerEvent: {}
+[13.348377] (-) TimerEvent: {}
+[13.448704] (-) TimerEvent: {}
+[13.549030] (-) TimerEvent: {}
+[13.649347] (-) TimerEvent: {}
+[13.749668] (-) TimerEvent: {}
+[13.849992] (-) TimerEvent: {}
+[13.950312] (-) TimerEvent: {}
+[14.050637] (-) TimerEvent: {}
+[14.150957] (-) TimerEvent: {}
+[14.251276] (-) TimerEvent: {}
+[14.351592] (-) TimerEvent: {}
+[14.451920] (-) TimerEvent: {}
+[14.552237] (-) TimerEvent: {}
+[14.652563] (-) TimerEvent: {}
+[14.752890] (-) TimerEvent: {}
+[14.853213] (-) TimerEvent: {}
+[14.953533] (-) TimerEvent: {}
+[15.053854] (-) TimerEvent: {}
+[15.154173] (-) TimerEvent: {}
+[15.254534] (-) TimerEvent: {}
+[15.354881] (-) TimerEvent: {}
+[15.455218] (-) TimerEvent: {}
+[15.555565] (-) TimerEvent: {}
+[15.655907] (-) TimerEvent: {}
+[15.756262] (-) TimerEvent: {}
+[15.856650] (-) TimerEvent: {}
+[15.957087] (-) TimerEvent: {}
+[16.057476] (-) TimerEvent: {}
+[16.157833] (-) TimerEvent: {}
+[16.258023] (peak_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpeak_cam.so\x1b[0m\n'}
+[16.258231] (-) TimerEvent: {}
+[16.358501] (-) TimerEvent: {}
+[16.458836] (-) TimerEvent: {}
+[16.559197] (-) TimerEvent: {}
+[16.659871] (-) TimerEvent: {}
+[16.714805] (peak_cam) StdoutLine: {'line': b'[100%] Built target peak_cam\n'}
+[16.727752] (peak_cam) CommandEnded: {'returncode': 0}
+[16.760065] (-) TimerEvent: {}
+[16.767283] (peak_cam) JobProgress: {'identifier': 'peak_cam', 'progress': 'install'}
+[16.783082] (peak_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam'], 'cwd': '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leonard'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/leonard'), ('OLDPWD', '/home/leonard/peak_cam_docker_container'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1647'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'leonard'), ('JOURNAL_STREAM', '8:49578'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leonard'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/leonard-ThinkPad-L14-Gen-4:@/tmp/.ICE-unix/1827,unix/leonard-ThinkPad-L14-Gen-4:/tmp/.ICE-unix/1827'), ('INVOCATION_ID', '8169111098004d479970d5d8298e17cd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a40c201_8af7_455f_a60a_1cb2744c6e3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leonard/peak_cam_docker_container/peak_cam/build/peak_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[16.788605] (peak_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.788822] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/peak_cam/peak_cam_node\n'}
+[16.789072] (peak_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/peak_cam/peak_cam_node" to ""\n'}
+[16.789192] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch\n'}
+[16.789275] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/left.launch.py\n'}
+[16.789376] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/front.launch.py\n'}
+[16.789450] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/peak_cam.launch.py\n'}
+[16.789510] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/right.launch.py\n'}
+[16.789567] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/rear.launch.py\n'}
+[16.789649] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params\n'}
+[16.789710] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings\n'}
+[16.789786] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam2.yaml\n'}
+[16.789848] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam3.yaml\n'}
+[16.789904] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/peak_cam_params.yaml\n'}
+[16.789989] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam4.yaml\n'}
+[16.790047] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam1.yaml\n'}
+[16.790102] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics\n'}
+[16.790182] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_4_camera_info.yaml\n'}
+[16.790244] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_2_camera_info.yaml\n'}
+[16.790306] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_1_camera_info.yaml\n'}
+[16.790370] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/default_camera_info.yaml\n'}
+[16.790453] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include\n'}
+[16.790505] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam\n'}
+[16.790556] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam/peak_cam_node.hpp\n'}
+[16.790605] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam/acquisition_parameters.hpp\n'}
+[16.790654] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/library_path.sh\n'}
+[16.790710] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/library_path.dsv\n'}
+[16.790760] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/libpeak_cam.so\n'}
+[16.800021] (peak_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/libpeak_cam.so" to ""\n'}
+[16.800161] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/package_run_dependencies/peak_cam\n'}
+[16.800283] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/parent_prefix_path/peak_cam\n'}
+[16.800378] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/ament_prefix_path.sh\n'}
+[16.800468] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/ament_prefix_path.dsv\n'}
+[16.800558] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/path.sh\n'}
+[16.800630] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/path.dsv\n'}
+[16.800714] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.bash\n'}
+[16.800802] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.sh\n'}
+[16.800911] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.zsh\n'}
+[16.800986] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.dsv\n'}
+[16.801069] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/package.dsv\n'}
+[16.801153] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/packages/peak_cam\n'}
+[16.801248] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/rclcpp_components/peak_cam\n'}
+[16.801350] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.801442] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.801557] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.801659] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/peak_camConfig.cmake\n'}
+[16.801760] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/peak_camConfig-version.cmake\n'}
+[16.801823] (peak_cam) StdoutLine: {'line': b'-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/package.xml\n'}
+[16.803368] (peak_cam) CommandEnded: {'returncode': 0}
+[16.860089] (peak_cam) JobEnded: {'identifier': 'peak_cam', 'rc': 0}
+[16.860510] (-) TimerEvent: {}
+[16.860591] (-) EventReactorShutdown: {}

@@ -1,0 +1,52 @@
+[ 75%] Built target peak_cam_node
+[ 75%] [32mBuilding CXX object CMakeFiles/peak_cam.dir/src/peak_cam_node.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpeak_cam.so[0m
+[100%] Built target peak_cam
+-- Install configuration: ""
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/peak_cam/peak_cam_node
+-- Set runtime path of "/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/peak_cam/peak_cam_node" to ""
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/left.launch.py
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/front.launch.py
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/peak_cam.launch.py
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/right.launch.py
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/launch/rear.launch.py
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam2.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam3.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/peak_cam_params.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam4.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/settings/cam1.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_4_camera_info.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_2_camera_info.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/cam_1_camera_info.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/params/intrinsics/default_camera_info.yaml
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam/peak_cam_node.hpp
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/include/peak_cam/acquisition_parameters.hpp
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/library_path.sh
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/library_path.dsv
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/libpeak_cam.so
+-- Set runtime path of "/home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/lib/libpeak_cam.so" to ""
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/package_run_dependencies/peak_cam
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/parent_prefix_path/peak_cam
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/ament_prefix_path.sh
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/ament_prefix_path.dsv
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/path.sh
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/environment/path.dsv
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.bash
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.sh
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.zsh
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/local_setup.dsv
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/package.dsv
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/packages/peak_cam
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/ament_index/resource_index/rclcpp_components/peak_cam
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/peak_camConfig.cmake
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/cmake/peak_camConfig-version.cmake
+-- Installing: /home/leonard/peak_cam_docker_container/peak_cam/install/peak_cam/share/peak_cam/package.xml

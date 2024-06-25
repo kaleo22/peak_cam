@@ -1,0 +1,4 @@
+source;share/peak_cam/local_setup.bash
+source;share/peak_cam/local_setup.dsv
+source;share/peak_cam/local_setup.sh
+source;share/peak_cam/local_setup.zsh
